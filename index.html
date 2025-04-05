@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Thuan Nguyen Hoang">
+    <meta name="description" content="A simple flash card app to help you test javascript knowledges.">
+    <title>JS Flash Card</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h2>Flash Cards</h2>
+    <div class="card-container">
+        <div class="progress-bar">
+            <span class="progress" id="progress"></span>
+            <span class="progress-text" id="progress-text">0%</span>
+            <span class="progress-text" id="total">0 of 0</span>
+        </div>
+        <div class="card" id="card">
+            <div class="card-content">
+                <div class="content">
+                    <p class="question">
+                    </p>
+                    <p class="answer"></p>
+                </div>
+
+            </div>
+            <div class="card-buttons">
+                <button class="btn" id="prev-btn">Previous</button>
+                <button class="btn" id="show-answer-btn">Show Answer</button>
+                <button class="btn" id="next-btn">Next</button>
+            </div>
+        </div>
+    </div>
+</body>
